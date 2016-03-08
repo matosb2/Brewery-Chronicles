@@ -1,6 +1,6 @@
-* {
+/* {
    outline: 1px solid red !important;
-}
+}*/
 
 body {
 	width: 100%;
@@ -26,4 +26,14 @@ body {
 	font-weight: 400;
 	text-align: center;
 
+}
+
+hr.shadow {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 9px 10px -10px #bcbbbb;
+}
+
+.split {
+	padding: 0;
 }
